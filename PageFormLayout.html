@@ -1,0 +1,35 @@
+<section class="row border-bottom pb-4 pt-4" data-type="tableInformation">
+      <!--  
+    <section class="btn-group row" role="group" aria-label="Basic checkbox toggle button group" data-group="including">
+        <section class="col-4">
+            <input type="checkbox" class="btn-check" name="deleteAction[]"/>
+            <label class="btn btn-outline-success">Include delete button</label>
+        </section>
+        <section class=" col-4">
+            <input type="checkbox" class="btn-check" name="editAction[]"/>
+            <label class="btn btn-outline-success">Include edit button</label>
+        </section>
+        <section class="col-4 pb-3">
+            <input type="checkbox" class="btn-check" name="addAction[]"/>
+            <label class="btn btn-outline-success">Include add button</label>
+        </section>
+    </section>
+        -->
+    <section class="form-floating col-3">
+        <input class="form-control" placeholder="i" name="pagename[]"/>
+        <label>Page Name</label>
+    </section>
+    <section class="form-floating col-3">
+        <input class="form-control" placeholder="i" name="pagetable[]"/>
+        <label>Page Table</label>
+    </section>
+    <section class="col-3">
+        <h5>How many columns does your table have?</h5>
+    </section>
+    <section class="col-3">
+        <input type="number" min="1" max="20" class="form-control" step="1" placeholder="1" onchange="ColumnsSelected(this)" data-type="TableColumns" required/>
+    </section>
+    <section class="col-12 row pb-3 pt-3" data-type="TableColumns">
+
+    </section>
+</section>
